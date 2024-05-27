@@ -112,7 +112,7 @@ body {
 .register-link p a {
     color: #fff;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
 }
 .register-link p a:hover{
     color: #f90;
