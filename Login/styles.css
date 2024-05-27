@@ -80,6 +80,7 @@ body {
     text-decoration: none;
 }
 .remeber-forgot a:hover{
+    color: #f90;
     text-decoration: underline;
 }
 .wrapper .btn{
@@ -101,7 +102,7 @@ body {
         color: #fff;
         background: rgba(255, 255, 255, 0.15);
         border-color: #fff;
-         transition: 0.3 ease;
+        transition: 0.3 ease;
 }
 .wrapper .register-link {
     font-size: 14.5px;
@@ -114,5 +115,6 @@ body {
     font-weight: 600;
 }
 .register-link p a:hover{
+    color: #f90;
     text-decoration: underline;
 }
