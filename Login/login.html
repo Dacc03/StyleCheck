@@ -19,7 +19,10 @@
                 <i class='bx bxs-user'></i>
             </div>
             <div class="input-box">
-                <input type="password" placeholder="Contraseña" required>
+                <input type="password" id="password" name="password" 
+               pattern="(?=.*\d)(?=.*[a-zA-Z])(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{12,}" 
+               title="Debe tener al menos 12 caracteres, incluir una letra, un número y un carácter especial" placeholder="Contraseña"
+               required>
                 <i class='bx bxs-lock-alt'></i>
             </div>
             <div class="remeber-forgot">

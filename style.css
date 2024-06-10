@@ -33,6 +33,12 @@ header{
   position: relative;
   padding: 0 2rem;
 }
+
+/*Imagen logo del header*/
+header .navbar .logo a img{
+  width: 180px;
+  padding-top: 20px;
+}
 .navbar{
   background: linear-gradient(bottom,black,transparent);
   width: 100%;
@@ -41,23 +47,23 @@ header{
   display:flex;
   align-items: center;
   justify-content:space-between;
-}
-.navbar.logo a{
-  font-size: 1.5rem;
-  font-weight: bold;
+  margin-top: 18px;
 }
 
 .navbar .links{
   display: flex;
   gap:  2rem;
+  padding-top: 20px;
 }
 .navbar .toggle_btn{
+
   color: #fff;
   font-size: 1.5rem;
   cursor: pointer;
   display: none;
 }
 .action_btn{
+  margin-top: 18px;
   background-color: #f90;
   color: #fff;
   padding: 0.5rem 1rem;
@@ -123,6 +129,7 @@ section#hero{
   font-size: 3rem;
   margin-bottom: 1rem;
 }
+
 
 /* Diseño responsive */
 

@@ -11,3 +11,17 @@ toggleBtn.onclick = function() {
         ?'fa-solid fa-xmark'
         :'fa-solid fa-bars'
 }
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Aquí puedes agregar funcionalidades dinámicas si es necesario
+    console.log('Página cargada y lista para interactuar.');
+    
+    // Ejemplo: añadir evento a los botones de llamada a la acción
+    document.querySelectorAll('.cta-button').forEach(button => {
+        button.addEventListener('click', function(event) {
+            event.preventDefault();
+            alert('Funcionalidad de descarga próximamente.');
+        });
+    });
+});
