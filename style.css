@@ -509,7 +509,9 @@ h2{
   font-size: 1.2em;
   font-weight: lighter;
 }
-
+.card-front #leslie{
+  transform: rotate(270deg);
+}
 
 /* Footer */
 
